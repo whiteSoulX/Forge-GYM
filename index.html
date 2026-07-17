@@ -1,0 +1,661 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FORGE — Strength &amp; Conditioning Gym</title>
+<meta name="description" content="FORGE is a strength and conditioning gym offering certified trainers, group classes, and flexible memberships. Book your free trial class today.">
+
+<link rel="icon" href="assets/favicon.png" type="image/png">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Archivo:wght@600;700;800&family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="nav" id="top">
+  <div class="nav-inner">
+    <a class="brand" href="#top">
+      <img src="./assets/logo.png" alt="FORGE logo">
+    </a>
+
+    <nav class="nav-links" id="navLinks">
+      <a href="#programs">Programs</a>
+      <a href="#schedule">Schedule</a>
+      <a href="#trainers">Trainers</a>
+      <a href="#membership">Membership</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <a class="btn btn-primary btn-small" href="#contact">Join now</a>
+
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main>
+
+  <!-- ============ HERO ============ -->
+<!-- Hero Section -->
+<section class="hero" id="home">
+  <div class="hero-inner">
+    
+    <!-- Left Column: Main Text & Call to Action -->
+    <div class="hero-text">
+      <span class="eyebrow"><span class="pulse-dot"></span> Forge Your Legacy</span>
+      <h1>Build A <span class="hl">Stronger</span> You</h1>
+      <p class="lede">Experience elite strength and conditioning in a state-of-the-art facility designed to push your limits and transform your body.</p>
+      
+      <div class="hero-actions">
+        <a href="#memberships" class="btn btn-primary">Join Now</a>
+        <a href="#programs" class="btn btn-ghost-light">View Programs</a>
+      </div>
+
+      <div class="hero-stats">
+        <div>
+          <div class="stat-num">50+</div>
+          <div class="stat-label">Weekly Classes</div>
+        </div>
+        <div>
+          <div class="stat-num">24/7</div>
+          <div class="stat-label">Gym Access</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Right Column: Spinning Plate & Badges -->
+    <div class="hero-visual">
+      <!-- Spinning Weight Plate -->
+      <div class="plate-wrap">
+        <svg class="plate-svg" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <circle cx="100" cy="100" r="92" fill="none" stroke="#FF6A1A" stroke-width="10"/>
+          <circle cx="100" cy="100" r="66" fill="none" stroke="#4A6FA5" stroke-width="6" stroke-dasharray="4 8"/>
+          <circle cx="100" cy="100" r="34" fill="#F5F2EC"/>
+          <g fill="#FF6A1A">
+            <circle cx="100" cy="24" r="5"/>
+            <circle cx="152" cy="52" r="5"/>
+            <circle cx="152" cy="148" r="5"/>
+            <circle cx="100" cy="176" r="5"/>
+            <circle cx="48" cy="148" r="5"/>
+            <circle cx="48" cy="52" r="5"/>
+          </g>
+          <!-- Inner Dumbbell -->
+          <g fill="#1A1613">
+            <rect x="84" y="97" width="32" height="6" rx="2" />
+            <rect x="78" y="88" width="6" height="24" rx="2" />
+            <rect x="72" y="92" width="6" height="16" rx="2" />
+            <rect x="116" y="88" width="6" height="24" rx="2" />
+            <rect x="122" y="92" width="6" height="16" rx="2" />
+          </g>
+        </svg>
+
+        <!-- Floating Badges -->
+        <div class="float-badge badge-1">
+          <div class="icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+          </div>
+          <div>
+            <div class="num">High Energy</div>
+            <div class="cap">Atmosphere</div>
+          </div>
+        </div>
+
+        <div class="float-badge badge-2">
+          <div class="icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="8" r="5"/><path d="M20 21a8 8 0 0 0-16 0"/></svg>
+          </div>
+          <div>
+            <div class="num">Pro Trainers</div>
+            <div class="cap">On the floor</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+</section>
+
+  <!-- ============ TICKER ============ -->
+  <div class="ticker" aria-hidden="true">
+    <div class="ticker-track">
+      <span><span>Built Not Born</span><span>No Excuses</span><span>Est. 2015</span><span>500+ Members</span><span>20+ Weekly Classes</span><span>Certified Trainers</span></span>
+      <span><span>Built Not Born</span><span>No Excuses</span><span>Est. 2015</span><span>500+ Members</span><span>20+ Weekly Classes</span><span>Certified Trainers</span></span>
+    </div>
+  </div>
+
+  <!-- ============ FEATURES ============ -->
+  <section class="section" id="why">
+    <div class="section-inner">
+      <div class="section-head reveal">
+        <p class="eyebrow">Why train with us</p>
+        <h2>Everything you need to get stronger.</h2>
+        <p>No fluff, no gimmicks — just the coaching, equipment, and community that actually get results.</p>
+      </div>
+
+      <div class="feature-grid">
+        <div class="feature-card reveal">
+          <span class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 3.6-7 8-7s8 3 8 7"/></svg></span>
+          <h3>Certified Trainers</h3>
+          <p>Every coach is certified and hands-on, from your first session to your hundredth.</p>
+        </div>
+        <div class="feature-card reveal">
+          <span class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M6.5 6.5l11 11M4 4l3 3M17 17l3 3M9 4l-5 5M15 20l5-5"/></svg></span>
+          <h3>Modern Equipment</h3>
+          <p>Fully stocked free-weight floor, machines, and a dedicated functional training zone.</p>
+        </div>
+        <div class="feature-card reveal">
+          <span class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/></svg></span>
+          <h3>Flexible Hours</h3>
+          <p>Open 5AM–10PM every day, so training fits your schedule, not the other way around.</p>
+        </div>
+        <div class="feature-card reveal">
+          <span class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="6" cy="12" r="2.5"/><circle cx="18" cy="6" r="2.5"/><circle cx="18" cy="18" r="2.5"/><path d="M8.3 10.8l7.4-3.6M8.3 13.2l7.4 3.6"/></svg></span>
+          <h3>Small Group Classes</h3>
+          <p>Capped class sizes so coaches can actually correct your form, not just count reps.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PROGRAMS ============ -->
+  <section class="section section-alt" id="programs">
+    <div class="section-inner">
+      <div class="section-head reveal">
+        <p class="eyebrow">Programs</p>
+        <h2>Train your way.</h2>
+        <p>Six core programs, all included in every membership — mix and match as your goals change.</p>
+      </div>
+
+      <div class="program-grid">
+        <div class="program-card reveal">
+          <span class="program-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M6.5 6.5l11 11M4 4l3 3M17 17l3 3M9 4l-5 5M15 20l5-5"/></svg></span>
+          <h3>Strength Training</h3>
+          <p>Barbell fundamentals and progressive overload programming to build raw strength.</p>
+        </div>
+        <div class="program-card reveal">
+          <span class="program-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2L4 14h6l-1 8 9-12h-6z"/></svg></span>
+          <h3>HIIT</h3>
+          <p>High-intensity interval circuits that torch calories and build conditioning fast.</p>
+        </div>
+        <div class="program-card reveal">
+          <span class="program-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v3M12 18v3M4.2 4.2l2.1 2.1M17.7 17.7l2.1 2.1M3 12h3M18 12h3M4.2 19.8l2.1-2.1M17.7 6.3l2.1-2.1"/><circle cx="12" cy="12" r="4"/></svg></span>
+          <h3>Functional Training</h3>
+          <p>Kettlebells, sleds, and bodyweight work that builds strength you can actually use.</p>
+        </div>
+        <div class="program-card reveal">
+          <span class="program-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="9" r="6"/><path d="M13.5 13.5L20 20"/></svg></span>
+          <h3>Boxing &amp; Conditioning</h3>
+          <p>Bag work, pad rounds, and footwork drills for power, speed, and stamina.</p>
+        </div>
+        <div class="program-card reveal">
+          <span class="program-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3c-3 3-3 7 0 10-3 3-3 7 0 8"/><path d="M12 3c3 3 3 7 0 10 3 3 3 7 0 8"/></svg></span>
+          <h3>Yoga &amp; Mobility</h3>
+          <p>Guided flows and mobility drills to move better and recover faster between sessions.</p>
+        </div>
+        <div class="program-card reveal">
+          <span class="program-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="6" cy="17" r="3"/><circle cx="18" cy="17" r="3"/><path d="M6 17l4-9h4l3 5M10 8H8"/></svg></span>
+          <h3>Spin &amp; Cardio</h3>
+          <p>High-energy rides set to music, scaled to every fitness level in the room.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ SCHEDULE ============ -->
+  <!-- Sample weekly schedule — update classes, coaches, and times to match yours. -->
+  <section class="section" id="schedule">
+    <div class="section-inner">
+      <div class="section-head reveal">
+        <p class="eyebrow">Weekly schedule</p>
+        <h2>This week at Forge.</h2>
+        <p>Drop into any class with your membership — no extra booking fees.</p>
+      </div>
+
+      <div class="schedule-wrap reveal">
+        <table class="schedule">
+          <thead>
+            <tr>
+              <th>Class</th>
+              <th>Coach</th>
+              <th>Days</th>
+              <th>Time</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><span class="class-name">Strength Foundations</span></td>
+              <td>Coach Malik</td>
+              <td>Mon / Wed / Fri</td>
+              <td><span class="tag">6:00 AM</span></td>
+            </tr>
+            <tr>
+              <td><span class="class-name">HIIT Circuit</span></td>
+              <td>Coach Priya</td>
+              <td>Tue / Thu</td>
+              <td><span class="tag">5:30 PM</span></td>
+            </tr>
+            <tr>
+              <td><span class="class-name">Yoga &amp; Mobility</span></td>
+              <td>Coach Sam</td>
+              <td>Mon / Wed</td>
+              <td><span class="tag">6:00 PM</span></td>
+            </tr>
+            <tr>
+              <td><span class="class-name">Boxing Conditioning</span></td>
+              <td>Coach Malik</td>
+              <td>Tue / Thu / Sat</td>
+              <td><span class="tag">7:00 AM</span></td>
+            </tr>
+            <tr>
+              <td><span class="class-name">Spin</span></td>
+              <td>Coach Priya</td>
+              <td>Wed / Fri</td>
+              <td><span class="tag">6:30 PM</span></td>
+            </tr>
+            <tr>
+              <td><span class="class-name">Open Gym</span></td>
+              <td>—</td>
+              <td>Daily</td>
+              <td><span class="tag">5AM – 10PM</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ TRAINERS ============ -->
+  <!-- Sample trainers — replace names, specialties, and bios with your real team. -->
+  <section class="section section-alt" id="trainers">
+    <div class="section-inner">
+      <div class="section-head reveal">
+        <p class="eyebrow">Trainers</p>
+        <h2>Coaches who show up for you.</h2>
+        <p>Small enough that every coach knows your name and your goals.</p>
+      </div>
+
+      <div class="trainer-grid">
+        <div class="trainer-card reveal">
+          <div> 
+            <img class= "trainer-avatar" src="./assets/Gym/Trainer1.jpg" alt="Coach Malik">
+          </div>
+          <span class="trainer-badge">Head Coach</span>
+          <h3>Coach Malik</h3>
+          <p class="trainer-role">Strength &amp; Boxing</p>
+          <p class="bio">Former competitive powerlifter, 8 years coaching beginners through advanced lifters.</p>
+        </div>
+        <div class="trainer-card reveal">
+          <div> 
+            <img class= "trainer-avatar" src="./assets/Gym/Trainer3.jpg" alt="Coach Malik">
+          </div>
+          <h3>Coach Priya</h3>
+          <p class="trainer-role">HIIT &amp; Spin</p>
+          <p class="bio">High-energy conditioning coach who makes cardio days something you look forward to.</p>
+        </div>
+        <div class="trainer-card reveal">
+          <div> 
+            <img class= "trainer-avatar" src="./assets/Gym/Trainer2.jpg" alt="Coach Malik">
+          </div>
+          <h3>Coach Sam</h3>
+          <p class="trainer-role">Mobility &amp; Recovery</p>
+          <p class="bio">Certified in mobility coaching, focused on keeping you training injury-free.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ MEMBERSHIP ============ -->
+  <!-- Sample pricing — update tiers, features, and rates to match your real offer. -->
+  <section class="section" id="membership">
+    <div class="section-inner">
+      <div class="section-head center reveal" style="margin-left:auto;margin-right:auto;">
+        <p class="eyebrow">Membership</p>
+        <h2>Plans for every goal.</h2>
+        <p>No long-term contracts — cancel or switch plans anytime.</p>
+      </div>
+
+      <div class="membership-grid">
+        <div class="plan-card reveal">
+          <div class="plan-name">Basic</div>
+          <p class="plan-desc">Full gym floor access whenever you want to train.</p>
+          <div class="price-row"><span class="price-amount">$39</span><span class="price-suffix">/ month</span></div>
+          <ul class="feature-list">
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>Full gym floor access</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>Standard hours (6AM–9PM)</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>Locker room access</li>
+          </ul>
+          <a href="#contact" class="btn btn-ghost btn-block">Get started</a>
+        </div>
+
+        <div class="plan-card featured reveal">
+          <span class="plan-tag">Most popular</span>
+          <div class="plan-name">Pro</div>
+          <p class="plan-desc">Everything in Basic, plus unlimited group classes.</p>
+          <div class="price-row"><span class="price-amount">$69</span><span class="price-suffix">/ month</span></div>
+          <ul class="feature-list">
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>Unlimited group classes</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>Extended hours (5AM–10PM)</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>1 guest pass / month</li>
+          </ul>
+          <a href="#contact" class="btn btn-primary btn-block">Get started</a>
+        </div>
+
+        <div class="plan-card reveal">
+          <div class="plan-name">Elite</div>
+          <p class="plan-desc">Everything in Pro, plus dedicated coaching support.</p>
+          <div class="price-row"><span class="price-amount">$99</span><span class="price-suffix">/ month</span></div>
+          <ul class="feature-list">
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>1 personal training session / mo</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>Priority class booking</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>Monthly nutrition check-in</li>
+          </ul>
+          <a href="#contact" class="btn btn-ghost btn-block">Get started</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ TESTIMONIALS ============ -->
+  <!-- Sample testimonials — replace with real member quotes. -->
+  <section class="section section-alt" id="testimonials">
+    <div class="section-inner">
+      <div class="section-head reveal">
+        <p class="eyebrow">Member stories</p>
+        <h2>Real people, real progress.</h2>
+        <p>A few words from members who've been putting in the work.</p>
+      </div>
+
+      <div class="testimonial-grid">
+        <div class="testimonial-card reveal">
+          <blockquote>"I hadn't set foot in a gym in years. The coaches met me where I was and I've hit lifts I never thought I'd hit."</blockquote>
+          <div class="testimonial-who">
+            <span class="testimonial-avatar">DT</span>
+            <span>
+              <div class="testimonial-name">Dana T.</div>
+              <div class="testimonial-role">Member since 2023</div>
+            </span>
+          </div>
+        </div>
+        <div class="testimonial-card reveal">
+          <blockquote>"The small class sizes make a huge difference — the coaches actually fix your form instead of just yelling numbers."</blockquote>
+          <div class="testimonial-who">
+            <span class="testimonial-avatar">RC</span>
+            <span>
+              <div class="testimonial-name">Ray C.</div>
+              <div class="testimonial-role">Member since 2022</div>
+            </span>
+          </div>
+        </div>
+        <div class="testimonial-card reveal">
+          <blockquote>"Best gym community I've been part of. Six months in and I actually look forward to 6AM sessions."</blockquote>
+          <div class="testimonial-who">
+            <span class="testimonial-avatar">LN</span>
+            <span>
+              <div class="testimonial-name">Leah N.</div>
+              <div class="testimonial-role">Member since 2024</div>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+<section class="gym-gallery-section">
+  <div class="gallery-header">
+    <h2>Our Elite Zones</h2>
+    <p>Explore our state-of-the-art training environments designed to push your limits.</p>
+  </div>
+
+  <div class="gallery-grid">
+    <!-- Photo 1: Strength Training -->
+    <div class="gallery-item">
+      <img src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=600&q=80" alt="Heavy barbell lifting weights" loading="lazy">
+      <div class="gallery-overlay">
+        <h3>Powerlifting</h3>
+        <p>Premium Olympic barbells and platforms.</p>
+      </div>
+    </div>
+
+    <!-- Photo 1.1: Strength Training -->
+    <div class="gallery-item">
+      <img src="./assets/Gym/internal1.jpg" alt="Heavy barbell lifting weights" loading="lazy">
+      <div class="gallery-overlay">
+        <h3>Cardio & Wellness Suite</h3>
+        <p>Premium Technogym treadmills, ellipticals, and strength stations.  </p>
+      </div>
+    </div>
+
+    <!-- Photo 1.2: Strength Training -->
+    <div class="gallery-item">
+      <img src="./assets/Gym/internal2.jpg" alt="Heavy barbell lifting weights" loading="lazy">
+      <div class="gallery-overlay">
+        <h3>Elevate Your Endurance</h3>
+        <p>A modern, sunlit space designed to help you smash your goals.</p>
+      </div>
+    </div>
+    <!-- Photo 1.3: Strength Training -->
+    <div class="gallery-item">
+      <img src="./assets/Gym/internal3.jpg" alt="Heavy barbell lifting weights" loading="lazy">
+      <div class="gallery-overlay">
+        <h3>The Cardio Zone</h3>
+        <p>State-of-the-art equipment with panoramic city-view windows.</p>
+      </div>
+    </div> 
+    <!-- Photo 1.4: Strength Training -->
+    <div class="gallery-item">
+      <img src="./assets/Gym/internal4.jpg" alt="Heavy barbell lifting weights" loading="lazy">
+      <div class="gallery-overlay">
+        <h3>Equipements</h3>
+        <p>Premium fitness equipment for all your needs.</p>
+      </div>
+    </div>  
+    <!-- Photo 1.5: Strength Training -->
+    <div class="gallery-item">
+      <img src="./assets/Gym/internal5.jpg" alt="Heavy barbell lifting weights" loading="lazy">
+      <div class="gallery-overlay">
+        <h3>Equipements</h3>
+        <p>Premium fitness equipment for all your needs.</p>
+      </div>
+    </div> 
+    <!-- Photo 1.6: Strength Training -->
+    <div class="gallery-item">
+      <img src="./assets/Gym/internal6.jpg" alt="Heavy barbell lifting weights" loading="lazy">
+      <div class="gallery-overlay">
+        <h3>Powerlifting</h3>
+        <p>Premium Olympic barbells and platforms.</p>
+      </div>
+    </div>            
+
+    <!-- Photo 2: Cardio Zone -->
+    <div class="gallery-item">
+      <img src="https://images.unsplash.com/photo-1517838277536-f5f99be501cd?auto=format&fit=crop&w=600&q=80" alt="Rowing machine workout" loading="lazy">
+      <div class="gallery-overlay">
+        <h3>Cardio Suite</h3>
+        <p>HIIT, rowers, and curved treadmills.</p>
+      </div>
+    </div>
+
+    <!-- Photo 3: Free Weights -->
+    <div class="gallery-item">
+      <img src="https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?auto=format&fit=crop&w=600&q=80" alt="Dumbbell rack in gym" loading="lazy">
+      <div class="gallery-overlay">
+        <h3>Free Weights</h3>
+        <p>Dumbbells ranging from 2kg to 60kg.</p>
+      </div>
+    </div>
+
+    <!-- Photo 4: Functional Training -->
+    <div class="gallery-item">
+      <img src="https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?auto=format&fit=crop&w=600&q=80" alt="Sled push on turf" loading="lazy">
+      <div class="gallery-overlay">
+        <h3>Functional Turf</h3>
+        <p>Battle ropes, sled tracks, and kettlebells.</p>
+      </div>
+    </div>
+
+    <!-- Photo 5: Yoga/Stretching -->
+    <div class="gallery-item">
+      <img src="https://images.unsplash.com/photo-1518611012118-696072aa579a?auto=format&fit=crop&w=600&q=80" alt="Yoga mats and blocks" loading="lazy">
+      <div class="gallery-overlay">
+        <h3>Mind & Body</h3>
+        <p>A quiet, dedicated space for yoga and mobility.</p>
+      </div>
+    </div>
+
+    <!-- Photo 6: Boxing/Combat -->
+    <div class="gallery-item">
+      <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&w=600&q=80" alt="Boxing punch bag" loading="lazy">
+      <div class="gallery-overlay">
+        <h3>Combat Zone</h3>
+        <p>Heavy bags and professional boxing rings.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <!-- ============ CTA BANNER ============ -->
+  <section class="cta-section">
+    <div class="section-inner cta-inner reveal">
+      <h2>Your first class is on us.</h2>
+      <p>Try Forge free for 7 days — no commitment, cancel anytime.</p>
+      <div class="cta-actions">
+        <a href="#contact" class="btn btn-primary">Claim your free trial</a>
+        <a href="#schedule" class="btn btn-ghost-light">See the schedule</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CONTACT ============ -->
+  <section class="section" id="contact">
+    <div class="section-inner">
+      <div class="section-head reveal">
+        <p class="eyebrow">Visit us</p>
+        <h2>Come train with us.</h2>
+        <p>Book a free trial class or just stop by — we'll show you around.</p>
+      </div>
+
+      <div class="contact-grid">
+        <!-- Front-end only — wire this up to your email service (Formspree, EmailJS, etc). See README. -->
+        <form class="contact-form reveal" id="contactForm">
+          <div class="form-row">
+            <div class="field">
+              <label for="fName">Full name</label>
+              <input type="text" id="fName" name="name" placeholder="Jane Cooper" required>
+            </div>
+            <div class="field">
+              <label for="fEmail">Email</label>
+              <input type="email" id="fEmail" name="email" placeholder="jane@email.com" required>
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="field">
+              <label for="fPhone">Phone</label>
+              <input type="tel" id="fPhone" name="phone" placeholder="(+880) 017755****">
+            </div>
+            <div class="field">
+              <label for="fGoal">Main goal</label>
+              <select id="fGoal" name="goal">
+                <option>Build strength</option>
+                <option>Lose weight</option>
+                <option>General fitness</option>
+                <option>Sport-specific training</option>
+              </select>
+            </div>
+          </div>
+          <div class="field">
+            <label for="fMessage">Anything we should know?</label>
+            <textarea id="fMessage" name="message" placeholder="Tell us about your goals or any questions..."></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-block">Book my free trial class</button>
+          <div class="form-success" id="formSuccess">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>
+            Thanks — we'll be in touch to confirm your trial class.
+          </div>
+        </form>
+
+        <div class="contact-info reveal">
+          <div class="info-card">
+            <span class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 6-9 12-9 12s-9-6-9-12a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></span>
+            <div>
+              <h4>Address</h4>
+              <p>31/A Asad Avenue<br>Mohammadpur, Dhaka 1207</p>
+              <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=31%2FA+Asad+Avenue%2C+Dhaka" target="_blank" rel="noopener">Get directions →</a>
+            </div>
+          </div>
+          <div class="info-card">
+            <span class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/></svg></span>
+            <div>
+              <h4>Hours</h4>
+              <p>Mon – Fri: 5:00 AM – 10:00 PM<br>Sat – Sun: 7:00 AM – 6:00 PM</p>
+            </div>
+          </div>
+          <div class="info-card">
+            <span class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6 19.8 19.8 0 0 1-3.1-8.6A2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.3 1.8.6 2.7a2 2 0 0 1-.4 2.1L8 9.9a16 16 0 0 0 6 6l1.4-1.4a2 2 0 0 1 2.1-.4c.9.3 1.8.5 2.7.6a2 2 0 0 1 1.8 2z"/></svg></span>
+            <div>
+              <h4>Contact</h4>
+              <p>hello@forgegym.com<br>+8801775511607</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="section-inner">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <img src="assets/logo.png" alt="FORGE logo">
+        <p>A strength and conditioning gym built around real coaching, real community, and results that stick.</p>
+      </div>
+      <div class="footer-col">
+        <h5>Company</h5>
+        <ul>
+          <li><a href="#top">About</a></li>
+          <li><a href="#trainers">Trainers</a></li>
+          <li><a href="#">Careers</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h5>Programs</h5>
+        <ul>
+          <li><a href="#programs">Strength Training</a></li>
+          <li><a href="#programs">HIIT</a></li>
+          <li><a href="#programs">Boxing</a></li>
+          <li><a href="#programs">Yoga &amp; Mobility</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h5>Support</h5>
+        <ul>
+          <li><a href="#membership">Membership</a></li>
+          <li><a href="#schedule">Schedule</a></li>
+          <li><a href="#">FAQ</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>© <span id="year"></span> Forge Gym. All rights reserved.</p>
+      <div class="footer-socials">
+        <!-- Replace # with your real links -->
+        <a href="#" aria-label="Email"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg></a>
+        <a href="#" aria-label="Website"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a14 14 0 0 1 0 18 14 14 0 0 1 0-18z"/></svg></a>
+        <a href="#" aria-label="Community"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg></a>
+        <a href="#" aria-label="Location"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 6-9 12-9 12s-9-6-9-12a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
