@@ -177,9 +177,30 @@ h2{
 
 /* ---------- hero ---------- */
 .hero{
+  position: relative;
+  isolation: isolate;
   background: var(--ink); color: var(--on-dark);
   padding: calc(var(--nav-h) + 72px) 0 96px;
   overflow: hidden;
+}
+.hero::before,
+.hero::after{
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}
+.hero::before{
+  z-index: -2;
+  background: url("../assets/Gym/internal1.jpg") center / cover no-repeat;
+  filter: blur(5px);
+  transform: scale(1.04);
+}
+.hero::after{
+  z-index: -1;
+  background:
+    linear-gradient(90deg, rgba(26,22,19,.94) 0%, rgba(26,22,19,.78) 47%, rgba(26,22,19,.58) 100%),
+    linear-gradient(180deg, rgba(26,22,19,.28), rgba(26,22,19,.74));
 }
 .hero-inner{
   max-width: 1160px; margin: 0 auto; padding: 0 24px;
