@@ -193,7 +193,7 @@ h2{
 .hero::before{
   z-index: -2;
   background: url("../assets/Gym/internal1.jpg") center / cover no-repeat;
-  filter: blur(5px);
+  filter: blur(2px);
   transform: scale(1.04);
 }
 .hero::after{
@@ -292,6 +292,30 @@ h2{
 .feature-card p{ color: var(--ink-soft); font-size: 14.5px; line-height: 1.6; margin: 0; }
 
 /* ---------- programs ---------- */
+#programs{
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  background: var(--surface);
+}
+#programs::before,
+#programs::after{
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}
+#programs::before{
+  z-index: -2;
+  background: url("../assets/Gym/internal2.jpg") center / cover no-repeat;
+  filter: blur(2px);
+  transform: scale(1.03);
+}
+#programs::after{
+  z-index: -1;
+  background: rgba(245,242,236,.82);
+}
+#programs > .section-inner{ position: relative; z-index: 1; }
 .program-grid{ display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
 .program-card{
   background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius-md);
