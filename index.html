@@ -23,6 +23,8 @@
     </a>
 
     <nav class="nav-links" id="navLinks">
+      <a href="about.html">About</a>
+      <a href="branches.html">Branches</a>
       <a href="#programs">Programs</a>
       <a href="#schedule">Schedule</a>
       <a href="#trainers">Trainers</a>
@@ -30,7 +32,7 @@
       <a href="#contact">Contact</a>
     </nav>
 
-    <a class="btn btn-primary btn-small" href="#contact">Join now</a>
+    <a class="btn btn-primary btn-small" href="auth.html">Join now</a>
 
     <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
       <span></span><span></span><span></span>
@@ -52,7 +54,7 @@
       <p class="lede">Experience elite strength and conditioning in a state-of-the-art facility designed to push your limits and transform your body.</p>
       
       <div class="hero-actions">
-        <a href="#memberships" class="btn btn-primary">Join Now</a>
+        <a href="checkout.html" class="btn btn-primary">Join Now</a>
         <a href="#programs" class="btn btn-ghost-light">View Programs</a>
       </div>
 
@@ -70,29 +72,19 @@
 
     <!-- Right Column: Spinning Plate & Badges -->
     <div class="hero-visual">
-      <!-- Spinning Weight Plate -->
+      <!-- Animated coach portrait -->
       <div class="plate-wrap">
-        <svg class="plate-svg" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-          <circle cx="100" cy="100" r="92" fill="none" stroke="#FF6A1A" stroke-width="10"/>
-          <circle cx="100" cy="100" r="66" fill="none" stroke="#4A6FA5" stroke-width="6" stroke-dasharray="4 8"/>
-          <circle cx="100" cy="100" r="34" fill="#F5F2EC"/>
-          <g fill="#FF6A1A">
-            <circle cx="100" cy="24" r="5"/>
-            <circle cx="152" cy="52" r="5"/>
-            <circle cx="152" cy="148" r="5"/>
-            <circle cx="100" cy="176" r="5"/>
-            <circle cx="48" cy="148" r="5"/>
-            <circle cx="48" cy="52" r="5"/>
-          </g>
-          <!-- Inner Dumbbell -->
-          <g fill="#1A1613">
-            <rect x="84" y="97" width="32" height="6" rx="2" />
-            <rect x="78" y="88" width="6" height="24" rx="2" />
-            <rect x="72" y="92" width="6" height="16" rx="2" />
-            <rect x="116" y="88" width="6" height="24" rx="2" />
-            <rect x="122" y="92" width="6" height="16" rx="2" />
-          </g>
-        </svg>
+        <div class="orbit-glow"></div>
+        <div class="orbit-ring orbit-ring-one"></div>
+        <div class="orbit-ring orbit-ring-two"></div>
+        <div class="orbit-ring orbit-ring-three"></div>
+        <div class="portrait-frame">
+          <img class="hero-person" src="./assets/Gym/Trainer3.jpg" alt="Forge coach guiding an athlete">
+          <span class="orbit-stamp">FORGE / 01</span>
+        </div>
+        <span class="orbit-node orbit-node-one"></span>
+        <span class="orbit-node orbit-node-two"></span>
+        <span class="orbit-node orbit-node-three"></span>
 
         <!-- Floating Badges -->
         <div class="float-badge badge-1">
@@ -329,7 +321,7 @@
             <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>Standard hours (6AM–9PM)</li>
             <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>Locker room access</li>
           </ul>
-          <a href="#contact" class="btn btn-ghost btn-block">Get started</a>
+          <a href="checkout.html?plan=basic" class="btn btn-ghost btn-block">Get started</a>
         </div>
 
         <div class="plan-card featured reveal">
@@ -342,7 +334,7 @@
             <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>Extended hours (5AM–10PM)</li>
             <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>1 guest pass / month</li>
           </ul>
-          <a href="#contact" class="btn btn-primary btn-block">Get started</a>
+          <a href="checkout.html?plan=pro" class="btn btn-primary btn-block">Get started</a>
         </div>
 
         <div class="plan-card reveal">
@@ -354,7 +346,7 @@
             <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>Priority class booking</li>
             <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>Monthly nutrition check-in</li>
           </ul>
-          <a href="#contact" class="btn btn-ghost btn-block">Get started</a>
+          <a href="checkout.html?plan=elite" class="btn btn-ghost btn-block">Get started</a>
         </div>
       </div>
     </div>
@@ -523,7 +515,7 @@
       <h2>Your first class is on us.</h2>
       <p>Try Forge free for 7 days — no commitment, cancel anytime.</p>
       <div class="cta-actions">
-        <a href="#contact" class="btn btn-primary">Claim your free trial</a>
+        <a href="auth.html" class="btn btn-primary">Claim your free trial</a>
         <a href="#schedule" class="btn btn-ghost-light">See the schedule</a>
       </div>
     </div>
@@ -617,7 +609,8 @@
       <div class="footer-col">
         <h5>Company</h5>
         <ul>
-          <li><a href="#top">About</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="branches.html">Branches</a></li>
           <li><a href="#trainers">Trainers</a></li>
           <li><a href="#">Careers</a></li>
           <li><a href="#contact">Contact</a></li>
@@ -635,7 +628,7 @@
       <div class="footer-col">
         <h5>Support</h5>
         <ul>
-          <li><a href="#membership">Membership</a></li>
+          <li><a href="checkout.html">Membership</a></li>
           <li><a href="#schedule">Schedule</a></li>
           <li><a href="#">FAQ</a></li>
           <li><a href="#contact">Contact</a></li>
